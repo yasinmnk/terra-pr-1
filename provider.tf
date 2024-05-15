@@ -12,3 +12,13 @@ provider "google" {
   region  = var.location
   zone    = var.zone
 }
+rovider "google" {
+  project = var.project_id
+  region  = var.location
+  zone    = var.zone
+}
+rovider "google" {
+  project = var.project_id
+  region  = var.location
+  zone    = var.zone
+}
